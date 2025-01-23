@@ -1,3 +1,3 @@
-# shhotu010.github.io
+# encodedcoder.github.io
 Welcome to my Portfolio...
 https://encodedcoder.github.io/
