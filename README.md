@@ -1,3 +1,3 @@
 # shhotu010.github.io
 Welcome to my Portfolio...
-https://shhotu010.github.io/
+https://encodedcoder.github.io/
