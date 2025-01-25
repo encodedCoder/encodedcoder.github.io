@@ -1,91 +1,136 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Suresh's Home</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suresh's Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Suresh</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="coding_practice.html">Coding Practice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="games_created.html">Games Created</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animations.html">Animations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_me.html">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <table cellpadding="20px">
-    <tr>
-      <td>
-        <img src="images/suresh.png" width="200rem" height="200rem">
-      </td>
-      <td>
-        <h1>Suresh</h1>
-        <p>“Make it work, make it right, make it fast.” – <a href="https://en.wikipedia.org/wiki/Kent_Beck" target="blank">Kent Beck</a></p>
-        <p>“Before software can be reusable it first has to be usable.” – <a href="https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)" target="blank">Ralph Johnson</a></p>
-        <!-- <p>I'm an aspiring coder and web developer. I love coding, gaming, singing, dancing, instrument playing, sketching, painting and writing.</p> -->
-      </td>
-    </tr>
-  </table>
-  <hr>
+    <!-- Main Content -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="images/suresh.png"
+            class="img-fluid rounded-circle"
+            alt="Suresh"
+          />
+        </div>
+        <div class="col-md-8">
+          <h1>Suresh</h1>
+          <p>
+            “Make it work, make it right, make it fast.” –
+            <a href="https://en.wikipedia.org/wiki/Kent_Beck" target="_blank"
+              >Kent Beck</a
+            >
+          </p>
+          <p>
+            “Before software can be reusable it first has to be usable.” –
+            <a
+              href="https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)"
+              target="_blank"
+              >Ralph Johnson</a
+            >
+          </p>
+        </div>
+      </div>
+      <hr />
 
-  <!-- <h3>Work Experience</h3> -->
-  <!-- <table cellpadding="20px" style="border-collapse: collapse;"> -->
-    <!-- <thead> -->
-      <!-- <tr> -->
-        <!-- <th>Year</th> -->
-        <!-- <th>Profile</th> -->
-      <!-- </tr> -->
-    <!-- </thead> -->
-    <!-- <tbody> -->
-      <!-- <tr> -->
-        <!-- <td>2010-13</td> -->
-        <!-- <td>Front-end Developer, worked with HTML, CSS, JavaScript</td> -->
-      <!-- </tr> -->
-      <!-- <tr> -->
-        <!-- <td>2013-14</td> -->
-        <!-- <td>Front-end Senior Developer, worked with ReactJS, ExpressJS</td> -->
-      <!-- </tr> -->
-      <!-- <tr> -->
-        <!-- <td>2014</td> -->
-        <!-- <td>Full-stack Developer, worked with NodeJS, MonogDB, PostgreSQL, MySQL</td> -->
-      <!-- </tr> -->
-    <!-- </tbody> -->
-  <!-- </table> -->
-  <!-- <hr> -->
+      <h3>Skills</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              C++ <span class="float-right">⭐⭐⭐⭐</span>
+            </li>
+            <li class="list-group-item">
+              Python <span class="float-right">⭐⭐⭐</span>
+            </li>
+            <li class="list-group-item">
+              SQL <span class="float-right">⭐⭐</span>
+            </li>
+            <li class="list-group-item">
+              MongoDB <span class="float-right">⭐</span>
+            </li>
+            <li class="list-group-item">
+              Git <span class="float-right">⭐⭐</span>
+            </li>
+            <li class="list-group-item">
+              GitHub <span class="float-right">⭐⭐</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              Object Oriented Programming
+              <span class="float-right">⭐⭐⭐</span>
+            </li>
+            <li class="list-group-item">
+              NodeJS <span class="float-right">⭐</span>
+            </li>
+            <li class="list-group-item">
+              ReactJS <span class="float-right">⭐</span>
+            </li>
+            <li class="list-group-item">
+              ExpressJS <span class="float-right">⭐</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </div>
 
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table>
-          <!-- <caption>Table1</caption> -->
-          <tr> <td>C++</td> <td>⭐⭐⭐⭐</td> </tr>
-          <tr> <td>Python</td> <td>⭐⭐⭐</td> </tr>
-          <tr> <td>SQL</td> <td>⭐⭐</td> </tr>
-          <tr> <td>MongoDB</td> <td>⭐</td> </tr>
-          <tr> <td>Git</td> <td>⭐⭐</td> </tr>
-          <tr> <td>GitHub</td> <td>⭐⭐</td> </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <!-- <caption>Table2</caption> -->
-          <tr> <td>Object Oriented Programming</td> <td>⭐⭐⭐</td> </tr>
-          <tr> <td>NodeJS</td> <td>⭐</td> </tr>
-          <tr> <td>ReactJS</td> <td>⭐</td> </tr>
-          <tr> <td>ExpressJS</td> <td>⭐</td> </tr>
-          <!-- <tr> <td>InDesign</td> <td>⭐</td> </tr> -->
-          <!-- <tr> <td>Unity</td> <td>⭐</td> </tr> -->
-          <!-- <tr> <td>Premiere Pro</td> <td>⭐</td> </tr> -->
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+      <div class="container p-4">
+        <p>&copy; 2023 Suresh. All rights reserved.</p>
+      </div>
+    </footer>
 
-  <p>
-    <a href="coding_practice.html">Coding Practice</a>
-    <a href="games_created.html">Games Created</a>
-    <a href="hobbies.html">Hobbies</a>
-    <a href="animations.html">Animaitons</a>
-    <a href="about_me.html">About Me</a>
-  </p>
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
